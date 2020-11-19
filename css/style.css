@@ -1,0 +1,190 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color:black;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color:black;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color:black;
+    color:black;
+    fill:black;
+    border-color:black;
+}
+
+/*** TEXT ***/
+
+.row{
+	color:black;
+	font-size:14px;
+	font-family:
+}
+
+h1{
+	color:black;
+	font-size:28px;
+	font-family:
+	
+}
+h2{
+	color:black;
+	font-size:24px;
+	font-family:
+}
+h3{
+	color:black;
+	font-size:20px;
+	font-family:
+}
+h4{
+	color:black;
+	font-size:14px;
+	font-family:
+}
+p{
+	color:
+	font-size:	
+	font-family:
+}
+div.Intro {
+	text-align: center;
+}
+div.AboutMe { 
+	text-align: center;
+}
+div.EmploymentHistory {
+	text-align: center;
+}
+div.InterestsAndSkills {
+	text-align: center;
+}
+
+.card-title {
+	text-align: center;
+}
+.card-date {
+	text-align: center;
+}
+.card-body {
+	text-align: center;
+}
+.resume {
+	text-align: center;
+}
+div.connect {
+	text-align: center;
+	padding-top: 150px;
+	font-size: 28px;
+	
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("../assets/contour-lines.png");
+    text-align: center;
+    color: #fff;
+    padding: 4%;
+    border-radius: 0px;
+}
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: bold;
+	color: white
+}
+.jumbotron h2 {
+    font-size: 24px;
+    font-weight: bold;
+	color: white
+}
+
+
+
+/*** IMAGES ***/
+
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 30px;
+	column-gap: 15px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+} 
+
+.column1 {
+	float: left;
+	width: 33.33%;
+	padding: 30px;
+	column-gap: 15px;
+	align-items: center;
+	text-align:center;
+
+}
+
+.column2 {
+	float: left;
+	width: 33.33%;
+	padding: 30px;
+	column-gap: 15px;
+	text-align:center;
+
+}
+
+.column3 {
+	float: left;
+	width: 33.33%;
+	padding: 30px;
+	column-gap: 15px;
+	text-align:center;
+
+}
+.row1::after {
+	content: "";
+	clear: both;
+	display: table;
+} 
+
+.row2::after {
+	content: "";
+	clear: both;
+	display: table;
+} 
+
+.row3::after {
+	content: "";
+	clear: both;
+	display: table;
+} 
